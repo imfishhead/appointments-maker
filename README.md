@@ -13,7 +13,7 @@
 這是一個 Google App Script 的專案，請透過以下步驟建立：
 
 1. 請先建立一個 google form，並先建立四個題目，依序為：
-   1. 可以的時間（選擇題）（請先自行建立可以的時間，格式為 yyyy-mm-dd HH:mm - HH:mm，如 2025-02-28 17:00 - 18:00）
+   1. 可以的時間（選擇題）
    2. 你的 email（簡答題）
    3. 你的名字（簡答題）
    4. 會議目的（詳述題）
@@ -34,8 +34,12 @@ const env = {
   hostEmail: '' // 你的 email，cc 用
 }
 ```
-6. 手動執行 main.gs 並賦予權限
-7. 成功！接下來你的表單就可以開放預約並自動更新表單內容囉
+6. 手動執行 updateFormOptions.gs 更新表單的可預約時間（與賦予權限）
+7. 手動執行 main.gs 並賦予權限
+8. 點選左邊的「觸發條件」，並依照以下設定：
+   ![image](https://github.com/user-attachments/assets/b56102ec-9b5b-4c96-b1fc-75c8fc2e0bf3)
+
+設定完成！接下來你的表單就可以開放預約並自動更新表單內容囉
 
 # 參考資料
 程式碼參考 https://israynotarray.com/other/20230527/3505650923/
