@@ -37,7 +37,13 @@ const env = {
 6. 手動執行 updateFormOptions.gs 更新表單的可預約時間（與賦予權限）
 7. 手動執行 main.gs 並賦予權限
 8. 點選左邊的「觸發條件」，並依照以下設定：
+- 新增有新回覆時建立行事曆
+  
    ![image](https://github.com/user-attachments/assets/b56102ec-9b5b-4c96-b1fc-75c8fc2e0bf3)
+- 每天凌晨再檢查一次行事曆空檔，更新表單
+  
+   ![image](https://github.com/user-attachments/assets/cc9e0229-cd41-4a37-a3c7-4478869dd0ac)
+
 
 設定完成！接下來你的表單就可以開放預約並自動更新表單內容囉
 
